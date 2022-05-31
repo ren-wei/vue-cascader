@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es2021",
+        "outDir": "dist",
+        "lib": ["es2021", "DOM"],
+        "sourceMap": false,
+        "rootDir": ".",
+        "strict": true,
+        "typeRoots": ["node_modules/@types"]
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
